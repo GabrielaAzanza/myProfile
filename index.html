@@ -13,25 +13,62 @@
 </head>
 
 <body>
-    <div class="b1 text-center container-fluid">
-        <h3>Who Am I?</h3>
-        <img class="img-circle" src="./imgs/bird.png" alt="Imagen de una aguila">
-        <h3>Soy Gabriela</h3>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" type="button" data-target="#myNavbar">
+
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">ME</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#1who">WHO</a></li>
+                    <li><a href="#3what">WHAT</a></li>
+                    <li><a href="#4where">WHERE</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="1who" class="b1 text-center container-fluid">
+        <h3 class="margin" class="margin">Who Am I?</h3>
+        <img style="display: inline" class="img-circle img-responsive" src="./imgs/bird.png" alt="Imagen de una aguila">
+        <h3 class="margin">Soy Gabriela</h3>
     </div>
-    <div class="b2 text-center container-fluid">
-        <h3>What Am I?</h3>
+    <div id="3what" class="b2 text-center container-fluid">
+        <h3 class="margin">What Am I?</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat, molestiae dolor, deserunt magnam
             facere id corporis voluptas neque iusto earum non veritatis beatae quod Fuga tempore eos nunquam
             consequatur?</p>
         <a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-search"> Search</span></a>
     </div>
-    <div class="b3 text-center container-fluid">
-        <h3>Where To Find Me?</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem debitis quos reiciendis delectus, excepturi
-            necessitatibus soluta sint id non eaque? Asperiores molestiae consequatur sapiente expedita cum voluptas,
-            assumenda voluptatem dolore?</p>
-
+    <div id="4where" class="b3 text-center container-fluid">
+        <h3 class="margin">Where To Find Me?</h3>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <img class="img-responsive img-bird" src="./imgs/im1.png" alt="1">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <img class="img-responsive img-bird" src="./imgs/im2.png" alt="2">
+            </div>
+            <div class="col-sm-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <img class="img-responsive img-bird" src="./imgs/im3.png" alt="3">
+            </div>
+        </div>
     </div>
+
+    <footer class="container-fluid text-center">Boostrap Theme</footer>
 </body>
 
 </html>
